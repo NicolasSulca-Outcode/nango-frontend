@@ -9,7 +9,7 @@ export type SelectProps = {
     id: string;
     name: string;
     options: Option[];
-    onChange: () => void;
+    onChange: (e:any) => void;
 }
 
 export const SelectField = ({text, id, name, options, onChange}: SelectProps) => {
